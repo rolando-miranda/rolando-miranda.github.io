@@ -1,7 +1,79 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: single
 author_profile: true
+classes: wide
+permalink: /
 ---
+
+<section id="about" markdown="1">
+
+# Rolando Miranda
+
+**Mechanical engineer · MS candidate at NYU Tandon**
+
+*One- or two-sentence opening line — your elevator pitch.*
+
+### What I'm working on now
+
+*3-5 lines on current commitments: NYU coursework focus, TA role at Thermo-fluids Lab, current builds.*
+
+### Background
+
+*One or two paragraphs on the Terumo / MicroVention years. Outcome-focused.*
+
+### What I'm interested in
+
+*Short paragraph on the technical areas you want to work in.*
+
+</section>
+
+<section id="projects" markdown="1">
+
+## Projects
+
+A selection of engineering work — coursework, professional case studies, and instrumentation built at NYU. Click any project for the full write-up.
+
+<div class="entries-grid">
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted_projects %}
+    {% include archive-single.html type="grid" post=project %}
+  {% endfor %}
+</div>
+
+</section>
+
+<section id="cv" markdown="1">
+
+## CV
+
+<a href="/assets/files/CV_RolandoMiranda.pdf" class="btn btn--primary" download>
+  <i class="fas fa-download"></i> Download full CV (PDF)
+</a>
+
+*Last updated: [month year]*
+
+### Education
+*NYU Tandon (MSc, in progress) · ULACIT (MPM, Suma Cum Laude 2025) · Universidad de Costa Rica (BSc with Honors, 2023).*
+
+### Experience
+*NYU Tandon Graduate Course Assistant (2025–present) · Terumo Neuroscience Manufacturing Engineer II (2023–2025) · MicroVention–Terumo Manufacturing Engineer I (2021–2023) · CIRE-TOP Junior Engineer (2021).*
+
+### Technical Skills
+*Software · Manufacturing · Engineering · Prototyping · Programming. Full list in the PDF.*
+
+### Languages
+English (TOEFL 105) · Spanish (native) · German (A2 – B1)
+
+[See full CV page →](/cv/)
+
+</section>
+
+<section id="contact" markdown="1">
+
+## Contact
+
+I'm open to conversations about R&D roles, research collaborations, and consulting in medical devices, mechatronics, and thermal engineering.
+
+The best way to reach me is by [email](mailto:rolomiranda98@gmail.com). I'm also on [GitHub](https://github.com/rolando-miranda) and [LinkedIn](https://www.linkedin.com/in/).
+
+</section>
