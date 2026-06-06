@@ -13,42 +13,33 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+# Site settings
+title: "Rolando Miranda"
+email: rolomiranda98@gmail.com
+description: >-
+  Mechanical engineer working at the intersection of medical device
+  manufacturing, mechatronics, and thermal systems. MS candidate at NYU Tandon.
+github_username: rolando-miranda
+minimal_mistakes_skin: "default"
 search: true
+
+# URL settings
+url: "https://rolando-miranda.github.io"
+baseurl: ""
+repository: "rolando-miranda/rolando-miranda.github.io"
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -57,38 +48,45 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Author profile (the left sidebar across the site)
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name        : "Rolando Miranda"
+  avatar      : "/assets/images/bio-photo.jpg"
+  bio         : "Mechanical engineer · MS candidate at NYU Tandon. Medical devices, mechatronics, thermal systems."
+  location    : "Bronx, NY"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rolomiranda98@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/rolando-miranda"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/"  # <-- add your LinkedIn slug
 
+# Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/rolando-miranda"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/"  # <-- same LinkedIn URL as above
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rolomiranda98@gmail.com"
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults: layout settings for different content types
 defaults:
-  # _posts
+  # _posts (blog scaffolding — present but unlinked for now)
   - scope:
       path: ""
       type: posts
@@ -96,8 +94,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
@@ -106,7 +104,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      read_time: false
+      toc: true
+      toc_sticky: true
 
+# Archive page configs (left in for future use; not linked in nav)
 category_archive:
   type: liquid
   path: /categories/
