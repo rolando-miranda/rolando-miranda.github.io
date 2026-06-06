@@ -63,7 +63,7 @@ author:
       url: "https://github.com/rolando-miranda"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/"  # <-- add your LinkedIn slug
+      url: "https://www.linkedin.com/in/rolando-miranda-engineer"  # <-- add your LinkedIn slug
 
 # Footer
 footer:
@@ -73,7 +73,7 @@ footer:
       url: "https://github.com/rolando-miranda"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/"  # <-- same LinkedIn URL as above
+      url: "https://www.linkedin.com/in/rolando-miranda-engineer"  # <-- same LinkedIn URL as above
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:rolomiranda98@gmail.com"
