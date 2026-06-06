@@ -1,0 +1,62 @@
+<style>
+  /* Smooth scroll for in-page anchor links */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* offset so sticky nav doesn't cover the section heading */
+  }
+
+  /* Make the masthead (top nav) sticky.
+     If your nav is already sticky by default, this just reinforces it. */
+  .masthead {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #fff;
+  }
+
+  /* Subtle underline on the currently visible section's nav item */
+  .greedy-nav .visible-links a.is-current {
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 2px;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Only run on the homepage (where the single-page sections live)
+    if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
+
+    var sections = document.querySelectorAll('section[id]');
+    var navLinks = document.querySelectorAll('.greedy-nav .visible-links a');
+    if (sections.length === 0 || navLinks.length === 0) return;
+
+    function clearCurrent() {
+      navLinks.forEach(function (link) { link.classList.remove('is-current'); });
+    }
+
+    function setCurrent(id) {
+      clearCurrent();
+      navLinks.forEach(function (link) {
+        // Match links whose href ends with '#<id>' (e.g. '/#projects')
+        if (link.getAttribute('href') && link.getAttribute('href').endsWith('#' + id)) {
+          link.classList.add('is-current');
+        }
+      });
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      // Of all sections currently intersecting, pick the topmost
+      var visible = entries
+        .filter(function (e) { return e.isIntersecting; })
+        .sort(function (a, b) { return a.boundingClientRect.top - b.boundingClientRect.top; });
+      if (visible.length > 0) {
+        setCurrent(visible[0].target.id);
+      }
+    }, {
+      rootMargin: '-80px 0px -60% 0px', // top offset = nav height; bottom = early trigger
+      threshold: 0
+    });
+
+    sections.forEach(function (s) { observer.observe(s); });
+  });
+</script>
