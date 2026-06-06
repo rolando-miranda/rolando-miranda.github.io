@@ -46,31 +46,15 @@ A selection of engineering work — coursework, professional case studies, and i
 
 ## CV
 
+My full CV covers education, work history, technical skills, methodologies, and languages.
+
 <p>
   <a href="/assets/files/CV_RolandoMiranda.pdf" class="btn btn--primary" download>
-    <i class="fas fa-download"></i> Download full CV (PDF)
+    <i class="fas fa-download"></i> Download CV (PDF)
   </a>
 </p>
 
 *Last updated: [month year]*
-
-### Education
-
-*NYU Tandon (MSc, in progress) · ULACIT (MPM, Suma Cum Laude 2025) · Universidad de Costa Rica (BSc with Honors, 2023).*
-
-### Experience
-
-*NYU Tandon Graduate Course Assistant (2025–present) · Terumo Neuroscience Manufacturing Engineer II (2023–2025) · MicroVention–Terumo Manufacturing Engineer I (2021–2023) · CIRE-TOP Junior Engineer (2021).*
-
-### Technical Skills
-
-*Software · Manufacturing · Engineering · Prototyping · Programming. Full list in the PDF.*
-
-### Languages
-
-English (TOEFL 105) · Spanish (native) · German (A2 – B1)
-
-[See full CV page →](/cv/)
 
 </section>
 
