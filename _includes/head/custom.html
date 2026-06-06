@@ -19,6 +19,88 @@
     border-bottom: 2px solid currentColor;
     padding-bottom: 2px;
   }
+/* ============================================
+   Project card hover with description reveal
+   ============================================ */
+
+/* Grid that holds the cards on the homepage */
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5em;
+  margin-top: 2em;
+}
+
+/* Each project card */
+.entries-grid .archive__item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.entries-grid .archive__item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* The card link wraps the whole card so clicking anywhere navigates */
+.entries-grid .archive__item-teaser {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+
+.entries-grid .archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.entries-grid .archive__item:hover .archive__item-teaser img {
+  transform: scale(1.04);
+}
+
+/* Title and excerpt area */
+.entries-grid .archive__item-title {
+  font-size: 1.1em;
+  margin: 0.8em 1em 0.4em;
+  line-height: 1.3;
+}
+
+.entries-grid .archive__item-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* The excerpt — hidden by default, revealed on hover */
+.entries-grid .archive__item-excerpt {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1em;
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.entries-grid .archive__item:hover .archive__item-excerpt {
+  max-height: 200px;
+  padding: 0 1em 1em;
+}
+
+/* On touch devices, always show the excerpt (hover doesn't exist) */
+@media (hover: none) {
+  .entries-grid .archive__item-excerpt {
+    max-height: 200px;
+    padding: 0 1em 1em;
+  }
+}
+
 </style>
 
 <script>
