@@ -1,8 +1,25 @@
 ---
-permalink: /about/
 title: "About"
+permalink: /about/
+layout: single
+author_profile: true
+classes: wide
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+*One- or two-sentence opening line — who you are, where you're studying, what you're focused on. This is the elevator pitch.*
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## What I'm working on now
+
+*A short list of current commitments. 3-5 lines max. Examples: NYU coursework focus, TA role at Thermo-fluids Lab, peristaltic pump build, MS thesis direction if known.*
+
+## Background
+
+*One or two paragraphs covering the Terumo / MicroVention years. Outcome-focused (doubled capacity, $3M backorder reduction) but readable as a narrative, not bullet points.*
+
+## What I'm interested in
+
+*One short paragraph naming the technical areas you actually want to work in — medical device R&D, mechatronics, thermal systems, instrumentation. Honest about where the line is between "have shipped this" and "want to build skills here."*
+
+## Get in touch
+
+I'm open to conversations about R&D roles, research collaborations, and consulting in medical devices, mechatronics, and thermal engineering. The best way to reach me is by [email](mailto:rolomiranda98@gmail.com).
