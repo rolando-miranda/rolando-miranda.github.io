@@ -4,6 +4,7 @@ permalink: /about/
 layout: single
 author_profile: true
 classes: wide
+sitemap: false
 ---
 
 *One- or two-sentence opening line — who you are, where you're studying, what you're focused on. This is the elevator pitch.*
