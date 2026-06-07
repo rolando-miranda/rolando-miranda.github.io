@@ -33,10 +33,10 @@ permalink: /
 
 A selection of engineering work — coursework, professional case studies, and instrumentation built at NYU. Click any project for the full write-up.
 
-<div class="entries-grid">
+<div class="grid__wrapper">
   {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
   {% for project in sorted_projects %}
-    {% include archive-single.html type="grid" post=project %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
 
