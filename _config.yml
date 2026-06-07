@@ -51,7 +51,7 @@ plugins:
 # Author profile (the left sidebar across the site)
 author:
   name        : "Rolando Miranda"
-  avatar      : "/assets/images/bio-photo.jpg"
+  avatar      : "/assets/images/bio-photo.jpeg"
   bio         : "Mechanical engineer · MS candidate at NYU Tandon. Medical devices, mechatronics, thermal systems."
   location    : "Bronx, NY"
   links:
