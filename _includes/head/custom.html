@@ -23,122 +23,88 @@
    Project card hover with description reveal
    ============================================ */
 
-/* Grid that holds the cards on the homepage */
-.entries-grid {
+.grid__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5em;
   margin-top: 2em;
 }
 
-/* Each project card */
-.entries-grid .archive__item {
+/* Each card */
+.grid__wrapper .archive__item {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  margin: 0;
+  width: 100%;
+  float: none; /* override theme's float */
 }
 
-.entries-grid .archive__item:hover {
+.grid__wrapper .archive__item:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
-/* The card link wraps the whole card so clicking anywhere navigates */
-.entries-grid .archive__item-teaser {
+/* Image area */
+.grid__wrapper .archive__item-teaser {
   position: relative;
-  height: 200px;
+  height: 180px;
   overflow: hidden;
   background: #f4f4f4;
+  border-radius: 8px 8px 0 0;
 }
 
-.entries-grid .archive__item-teaser img {
+.grid__wrapper .archive__item-teaser img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
+  margin: 0;
 }
 
-.entries-grid .archive__item:hover .archive__item-teaser img {
+.grid__wrapper .archive__item:hover .archive__item-teaser img {
   transform: scale(1.04);
 }
 
-/* Title and excerpt area */
-.entries-grid .archive__item-title {
-  font-size: 1.1em;
-  margin: 0.8em 1em 0.4em;
+/* Card body padding */
+.grid__wrapper .archive__item-body {
+  padding: 1em;
+}
+
+/* Title */
+.grid__wrapper .archive__item-title {
+  font-size: 1.05em;
+  margin: 0 0 0.4em;
   line-height: 1.3;
 }
 
-.entries-grid .archive__item-title a {
+.grid__wrapper .archive__item-title a {
   color: inherit;
   text-decoration: none;
 }
 
-/* The excerpt — hidden by default, revealed on hover */
-.entries-grid .archive__item-excerpt {
+/* Excerpt — hidden by default, revealed on hover */
+.grid__wrapper .archive__item-excerpt {
   max-height: 0;
   overflow: hidden;
-  padding: 0 1em;
   margin: 0;
   font-size: 0.9em;
   color: #555;
-  transition: max-height 0.3s ease, padding 0.3s ease;
+  transition: max-height 0.3s ease, margin-top 0.3s ease;
 }
 
-.entries-grid .archive__item:hover .archive__item-excerpt {
+.grid__wrapper .archive__item:hover .archive__item-excerpt {
   max-height: 200px;
-  padding: 0 1em 1em;
+  margin-top: 0.4em;
 }
 
-/* On touch devices, always show the excerpt (hover doesn't exist) */
+/* On touch devices, always show excerpt */
 @media (hover: none) {
-  .entries-grid .archive__item-excerpt {
+  .grid__wrapper .archive__item-excerpt {
     max-height: 200px;
-    padding: 0 1em 1em;
+    margin-top: 0.4em;
   }
 }
-
-</style>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // Only run on the homepage (where the single-page sections live)
-    if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
-
-    var sections = document.querySelectorAll('section[id]');
-    var navLinks = document.querySelectorAll('.greedy-nav .visible-links a');
-    if (sections.length === 0 || navLinks.length === 0) return;
-
-    function clearCurrent() {
-      navLinks.forEach(function (link) { link.classList.remove('is-current'); });
-    }
-
-    function setCurrent(id) {
-      clearCurrent();
-      navLinks.forEach(function (link) {
-        // Match links whose href ends with '#<id>' (e.g. '/#projects')
-        if (link.getAttribute('href') && link.getAttribute('href').endsWith('#' + id)) {
-          link.classList.add('is-current');
-        }
-      });
-    }
-
-    var observer = new IntersectionObserver(function (entries) {
-      // Of all sections currently intersecting, pick the topmost
-      var visible = entries
-        .filter(function (e) { return e.isIntersecting; })
-        .sort(function (a, b) { return a.boundingClientRect.top - b.boundingClientRect.top; });
-      if (visible.length > 0) {
-        setCurrent(visible[0].target.id);
-      }
-    }, {
-      rootMargin: '-80px 0px -60% 0px', // top offset = nav height; bottom = early trigger
-      threshold: 0
-    });
-
-    sections.forEach(function (s) { observer.observe(s); });
-  });
-</script>
