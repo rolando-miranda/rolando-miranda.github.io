@@ -41,7 +41,13 @@ A selection of engineering work — coursework, professional case studies, and i
     <a class="project-card" href="{{ project.url | relative_url }}">
       <div class="project-card__image">
         {% if project.header.teaser %}
-          <img src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }}">
+          {% if project.header.teaser contains '.mp4' %}
+            <video autoplay loop muted playsinline>
+              <source src="{{ project.header.teaser | relative_url }}" type="video/mp4">
+            </video>
+          {% else %}
+            <img src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }}">
+          {% endif %}
         {% endif %}
       </div>
       <div class="project-card__body">
