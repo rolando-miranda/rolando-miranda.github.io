@@ -4,7 +4,7 @@ excerpt: "Planning and control algorithm for soil-sample collection, tested in t
 date: 2025-05-01
 category: robotics
 header:
-  teaser: /assets/images/projects/mars-rover-teaser.jpg
+  teaser: /assets/images/rover_teaser.mp4
 sidebar:
   - title: "Role"
     text: "Sole developer (coursework)"
