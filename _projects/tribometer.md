@@ -4,7 +4,7 @@ excerpt: "Undergraduate capstone — desktop tribometer integrating mechanical d
 date: 2023-04-01
 category: mechanical-design
 header:
-  teaser: /assets/images/projects/tribometer-teaser.mp4
+  teaser: /assets/images/tribometer-teaser.mp4
 sidebar:
   - title: "Role"
     text: "Capstone team lead"
