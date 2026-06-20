@@ -15,7 +15,7 @@ I'm a mechanical engineer with four years of experience in Class III medical dev
 
 ### What I'm working on now
 
-I am currently working as a Graduate Research Assistant at BuiLab, where I lead the efforts for making a fully automatic electrochemical reactor that utilizes minimal human input. This requires knowledge of communication protocols, electronics, mechanical design for fluid handling and additive manufacturing.
+I am currently working as a Graduate Research Assistant at BuiLab, where I lead the efforts for making a fully automatic electrochemical reactor that utilizes minimal human input. This requires knowledge of communication protocols, electronics, mechanical design for fluid handling and additive manufacturing. You can see our work [here](https://www.builabnyu.com/).
 
 ### Background
 
