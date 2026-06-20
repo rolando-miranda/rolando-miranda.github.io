@@ -11,19 +11,21 @@ permalink: /
 
 **Mechanical engineer · MS candidate at NYU Tandon**
 
-*One- or two-sentence opening line — your elevator pitch.*
+I'm a mechanical engineer with four years of experience in Class III medical device manufacturing, now studying robotics and material science at NYU Tandon. I like problems where mechanical design, electronics, and control all have to work together — process validation lines, robotics, instrumentation and automation.
 
 ### What I'm working on now
 
-*3-5 lines on current commitments: NYU coursework focus, TA role at Thermo-fluids Lab, current builds.*
+I am currently working as a Graduate Research Assistant at BuiLab, where I lead the efforts for making a fully automatic electrochemical reactor that utilizes minimal human input. This requires knowledge of communication protocols, electronics, mechanical design for fluid handling and additive manufacturing.
 
 ### Background
 
-*One or two paragraphs on the Terumo / MicroVention years. Outcome-focused.*
+I started my career at an energy consulting firm, assessing the safety of high-pressure steam vessels and designing boiler installations and fuel systems. After that experience, I transitioned into medical device manufacturing. I started as an intern learning the regulatory guidelines and the complex, highly technical processes required to build a Class III implantable device. Not long after, I was promoted into a Manufacturing Engineer role in the Access Devices division of the company. During the initial months of this role, I delivered a product-line flexibility project needed to absorb forecasted changes in demand. After this, many other business-critical projects came my way: from ramping up rolled-throughput yield on newly transferred lines to match sending-site levels, to managing the testing, reporting, and closure of raw-material changes for neurosurgery access devices.
+
+In my final years at the company, my work centered on leading evidence-based investigations of non-conformances, exceeding yearly line efficiency targets by more than 10%, and collaborating with R&D and Regulatory Affairs to deliver and execute validation plans for device design changes. I then moved to NYU Tandon as a Graduate Course Assistant, designing and building test instrumentation for the Thermo-fluids Laboratory, writing practicum procedures, and supporting undergraduate students in the lab.
 
 ### What I'm interested in
 
-*Short paragraph on the technical areas you want to work in.*
+My work has consistently sat at the intersection of mechanical design, instrumentation, and control — whether that's validating manufacturing processes for implantable devices, building test equipment for a university lab, or designing control systems for robotics and mechatronic projects. I'm increasingly interested in how these same principles apply to automation and additive manufacturing, and I'm looking for opportunities to build deeper experience there.
 
 </section>
 
