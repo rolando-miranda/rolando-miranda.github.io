@@ -4,7 +4,7 @@ excerpt: "Force-measurement instrument developed at NYU Tandon's Thermo-fluids L
 date: 2025-10-01
 category: instrumentation
 header:
-  teaser: /assets/images/projects/popstar-teaser.jpg
+  teaser: /assets/images/popstar-teaser.png
 sidebar:
   - title: "Role"
     text: "Designer & builder"
