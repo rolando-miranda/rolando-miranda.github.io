@@ -4,7 +4,7 @@ excerpt: "Mechatronic peristaltic pump driven by an STM32 microcontroller, with 
 date: 2025-11-01
 category: mechatronics
 header:
-  teaser: /assets/images/projects/peristaltic-pump-teaser.jpg
+  teaser: /assets/images/pump-teaser.png
 sidebar:
   - title: "Role"
     text: "Sole developer (coursework)"
