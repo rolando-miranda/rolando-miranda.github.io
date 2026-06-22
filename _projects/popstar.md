@@ -1,6 +1,6 @@
 ---
-title: "POPSTAR — Force Measurement Instrument"
-excerpt: "Force-measurement instrument developed at NYU Tandon's Thermo-fluids Laboratory."
+title: "POPSTAR — Toy Boat Thrust and Drag Measurement Instrument"
+excerpt: "Developed at NYU Tandon's Thermo-fluids Laboratory."
 date: 2025-10-01
 category: instrumentation
 header:
