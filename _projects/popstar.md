@@ -17,11 +17,4 @@ POPSTAR is an acronym for Put-put Observation Platform for Steam Testing and Res
 
 The POPSTAR's main working principle is that of strain and electrical resistance. Strain gauges attached to the top and bottom of a load cell transduce the force exerted on the gauge into a (very small) change of resistance. A bridge then amplifies this signal into a readable change in electric potential that the microcontroller can read, log into a computer and send via I2C communication to the screen. This is the exact same principle that JPL uses in their rocket engine thrust test rigs. Only that this one is a bit smaller.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/images/engine_test.gif" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  POPSTAR's big brother: a BlueOricin rocket engine thrust test rig. *Credits: BlueOrigin Twitter*
-</div>
+{% include figure image_path="/assets/images/engine_test.gif" alt="BlueOrigin rocket engine thrust test rig" caption="POPSTAR's big brother: a BlueOrigin rocket engine thrust test rig. *Credits: BlueOrigin Twitter*" %}
