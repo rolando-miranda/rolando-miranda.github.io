@@ -1,6 +1,6 @@
 ---
-title: "Peristaltic Pump with Open-Loop Flow Control"
-excerpt: "Mechatronic peristaltic pump driven by an STM32 microcontroller, with open-loop flow control calibrated against measured flow rates."
+title: "Peristaltic Pump with Closed Loop Flow Control"
+excerpt: "STM32-based, closed-loop-capable peristaltic pump."
 date: 2025-11-01
 category: mechatronics
 header:
