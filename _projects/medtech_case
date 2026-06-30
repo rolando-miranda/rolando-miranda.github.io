@@ -2,7 +2,7 @@
 title: "Medical Device Case Studies"
 excerpt: "A brief summary of my time working in the Medical Device Industry"
 date: 2025-05-01
-category: medical devicee
+category: medical devices
 header:
   teaser: /assets/images/medtech-teaser.png
 sidebar:
@@ -15,7 +15,7 @@ sidebar:
   - title: "Status"
     text: "Completed"
 ---
-#Medical Device Case Studies
+# Medical Device Case Studies
 
 I worked as a Manufacturing Engineer I from September 2021 to June 2023, and as a Manufacturing Engineer II from June 2023 to July 2025. During this time I was responsible for the manufacturing processes of several products in the company’s Access Devices division — catheters that navigate the delicate neurovasculature to deliver therapeutic agents to a target location. Manufacturing of these Class III devices is governed by FDA 21 CFR Part 820 and ISO 13485.
 
@@ -23,15 +23,15 @@ This work gave me a clear sense of how directly engineering decisions reach pati
 
 My responsibilities fell into three areas: production sustaining, process validation, and design change ownership. Below are representative results in each.
 
-##Production sustaining 
+## Production sustaining 
 
 I took over a product line recently transferred from another site. Shortly after I learned the processes, the site committed to an aggressive ramp-up across all models of the product. Because the processes were new to the operators, effective operator training was the key constraint. I focused on establishing best practices and updating the Standard Operating Procedures accordingly, which raised yield by more than 10%. This increase was above the corporate target for that year. Higher yield meant less material consumed per device shipped. Production goals were then met consistently across all models, and the site absorbed the full transferred volume.
 
-##Process validation
+## Process validation
 
 As the production plan evolved through 2024, demand for another product outpaced installed capacity. The transfer team that would normally own a capacity expansion was fully committed to other priority transfers, so a senior engineer and I were assigned to deliver it. The work required integrating new equipment, identifying appropriate process ranges, and executing a full Operational Qualification (OQ). We split the process documentation evenly; I routed the change through the Document Management System and, for my processes, drafted and executed the validation protocols, performed the data analysis, and authored the reports. We integrated the new equipment into the legacy process, trained operators, and completed the expansion on schedule. This resulted in the doubling of the installed capacity for the product within the required timeframe of the project.
 
-##Design change ownership
+## Design change ownership
 
 In 2024, a key component supplier hit a severe supply-chain disruption during a facilities change and could not meet orders for several months. This posed a significant business risk that threatened backorders across multiple product lines. Qualifying a replacement required revalidating the affected component across eight products. This was a change to the devices themselves, of the kind typically owned by R&D sustaining engineers. Our manufacturing team took it on. I owned the change for three of the eight products and contributed to all eight, supporting protocol and report drafting, data analysis, and live process monitoring during validation runs. For my three lines, I led the validation end to end: driving stakeholder discussions to draft and refine the validation documentation, executing validation on the production floor, reviewing drawing changes, and coordinating testing, operator and technician training, and production scheduling. The change was qualified successfully and contributed to roughly $3M in avoided backorders, restoring supply continuity.
 
