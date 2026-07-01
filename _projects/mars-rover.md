@@ -3,6 +3,7 @@ title: "Autonomous Mars Rover (MuJoCo)"
 excerpt: "Planning and control algorithm for soil-sample collection, tested in the MuJoCo physics simulator."
 date: 2025-05-01
 category: robotics
+order: 3
 header:
   teaser: /assets/images/rover_teaser.mp4
 sidebar:
