@@ -3,6 +3,7 @@ title: "Tribometer Prototype (Pin-on-Disk / Block-on-Ring)"
 excerpt: "Undergraduate capstone — desktop tribometer integrating mechanical design, FEA, mechatronic instrumentation, and materials testing."
 date: 2023-04-01
 category: mechanical-design
+published: false
 header:
   teaser: /assets/images/tribometer-teaser.mp4
 sidebar:
