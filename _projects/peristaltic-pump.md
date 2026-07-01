@@ -4,6 +4,7 @@ excerpt: "STM32-based, closed-loop-capable peristaltic pump."
 date: 2025-11-01
 category: mechatronics
 header:
+published: false
   teaser: /assets/images/pump-teaser.png
 sidebar:
   - title: "Role"
