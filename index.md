@@ -36,7 +36,7 @@ My work has consistently sat at the intersection of mechanical design, instrumen
 A selection of engineering work — coursework, professional case studies, and instrumentation built at NYU. Click any project for the full write-up.
 
 <div class="project-grid">
-  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+ {% assign sorted_projects = site.projects | sort: 'order' %}
   {% for project in sorted_projects %}
     <a class="project-card" href="{{ project.url | relative_url }}">
       <div class="project-card__image">
