@@ -3,8 +3,9 @@ title: "Peristaltic Pump with Closed Loop Flow Control"
 excerpt: "STM32-based, closed-loop-capable peristaltic pump."
 date: 2025-11-01
 category: mechatronics
-header:
 published: false
+order: 5
+header:
   teaser: /assets/images/pump-teaser.png
 sidebar:
   - title: "Role"
