@@ -3,6 +3,7 @@ title: "Medical Device Case Studies"
 excerpt: "A brief summary of my time working in the Medical Device Industry"
 date: 2025-05-01
 category: medical devices
+order: 1
 header:
   teaser: /assets/images/medtech-teaser.png
 sidebar:
