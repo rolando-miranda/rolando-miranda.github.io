@@ -3,6 +3,7 @@ title: "POPSTAR — Toy Boat Thrust and Drag Measurement Instrument"
 excerpt: "Developed at NYU Tandon's Thermo-fluids Laboratory."
 date: 2025-10-01
 category: instrumentation
+order: 2
 header:
   teaser: /assets/images/popstar-teaser.png
 sidebar:
