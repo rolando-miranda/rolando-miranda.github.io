@@ -42,6 +42,6 @@ I chose proportional control deliberately. The flow rate was small relative to t
 
 The most demanding part was implementing PWM on the STM32 in C. Coming from an Arduino background, working directly with duty cycle and frequency to drive a stepper motor is a different level of engagement with the hardware, and getting it right forced me to understand what the microcontroller was actually doing underneath the abstractions I was used to.
 
-# Current state and next steps
+## Current state and next steps
 
 The system successfully holds the reservoir at the setpoint, correcting in both directions whether the reservoir is overfilled or liquid is removed. A next step is a fully controllable interface with flow rate, volume dispensing, and timer settings, enabling low-cost, precise flow dispensing built from 3D printed parts and easy-to-find components.
