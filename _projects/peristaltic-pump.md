@@ -32,7 +32,7 @@ Electronics: an STM32 microcontroller, a stepper driver, and a capacitive level 
 
 Firmware and interface: a proportional control loop written in C. The capacitive sensor reading sets the error against the target level, and the controller modulates pump speed to close it. A screen and keypad let the user set the target level.
 
-{% include figure image_path="/assets/images/pump-teaser.png" alt="Pump" caption="3D render of the fully assembled peristaltic pump." Credits: Gemini" %}
+{% include figure.html image_path="/assets/images/pump-teaser.png" alt="Pump" caption="3D render of the fully assembled peristaltic pump. Credits: Gemini" %}
 
 ## Design control choice
 
