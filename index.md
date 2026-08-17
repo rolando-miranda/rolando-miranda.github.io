@@ -11,7 +11,7 @@ permalink: /
 
 **Mechanical engineer · MS candidate at NYU Tandon**
 
-I'm a mechanical engineer with four years of experience in Class III medical device manufacturing, now studying a M.S. in Mechanical Engineering at NYU Tandon, Brooklyn, NY. I like problems where mechanical design, electronics, and control all have to work together — process validation lines, robotics, instrumentation and automation.
+I'm a mechanical engineer with experience in Class III medical device manufacturing, now studying a M.S. in Mechanical Engineering at NYU Tandon, Brooklyn, NY. I like problems where mechanical design, electronics, and control all have to work together — process validation lines, robotics, instrumentation and automation.
 
 ### What I'm working on now
 
